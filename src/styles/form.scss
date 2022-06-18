@@ -1,0 +1,37 @@
+.form {
+  font-family: "Heebo";
+
+  .title {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .form-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+    .input {
+      width: 285px;
+    }
+
+    .button {
+      font-family: "Heebo";
+      width: 200px;
+    }
+  }
+  .form-result {
+    box-shadow: -4px 2px 14px -1px rgba(0, 0, 0, 0.78);
+    border-radius: 1%;
+    color: #fff;
+    text-align: center;
+    width: 330px;
+    background: rgb(25, 118, 210);
+    background: linear-gradient(
+      90deg,
+      rgba(25, 118, 210, 1) 0%,
+      rgba(21, 91, 182, 1) 100%
+    );
+  }
+}
