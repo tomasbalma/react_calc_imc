@@ -72,7 +72,7 @@ export const Form = () => {
           Reset
         </Button>
         <div className="form-result">
-          {result > 0 && <p>IMC = {result.toFixed(2)} Calculadora de imc</p>}
+          {result > 0 && <p>IMC = {result.toFixed(2)}</p>}
           {result > 0 && <p>Você se encontra {text}</p>}
         </div>
       </div>
